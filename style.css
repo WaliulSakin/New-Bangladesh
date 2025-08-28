@@ -1,0 +1,50 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 80px;
+    align-items: center;
+}
+
+.nav button {
+    color: green;
+    padding: 10px 20px;
+    border: 1.5px solid green;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 600;
+}
+
+.block-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 80px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    padding: 40px 50px 70px;
+}
+
+.block-1-left {
+    padding-top: 30px;
+}
+
+.block-1-left h3 {
+    color: rgba(0,0,0,0.6);
+}
+
+.block-1-left h1 {
+    font-size: 40px;
+}
+
+.block-1-left button {
+    color: white;
+    background-color: #006A50;
+    padding: 15px 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+}
